@@ -34,7 +34,7 @@ export default function Contact() {
 
               <div className="flex items-center gap-3">
                 <Phone size={18} />
-                <span>+91 9876543210</span>
+                <span>+91 7976694298</span>
               </div>
 
               <div className="flex items-center gap-3">
@@ -56,7 +56,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://github.com/"
+                href="https://github.com/krishnaSharma22iks"
                 target="_blank"
                 className="p-3 bg-white/10 rounded-lg hover:bg-white/20 transition"
               >

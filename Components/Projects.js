@@ -5,18 +5,18 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description: "Personal portfolio built with Next.js and Tailwind CSS",
-      image: "/projects/portfolio.png",
+      image: "/images/portfolio.png",
       tech: ["Next.js", "Tailwind"],
-      live: "#",
-      github: "#",
+      live: "https://iks-krishna-portfolio.vercel.app/",
+      github: "https://github.com/krishnaSharma22iks/iks-krishna-portfolio",
     },
     {
-      title: "Weather App",
-      description: "Real-time weather app using API and JavaScript",
-      image: "/projects/weather.png",
-      tech: ["JavaScript", "API"],
-      live: "#",
-      github: "#",
+      title: "Ecommerce App",
+      description: "Ecommerce Website built with React And Tailwind css",
+      image: "/images/ecommerce.png",
+      tech: ["React", "API", "Tailwind"],
+      live: "https://react-ecommerce-website-iks.vercel.app/",
+      github: "https://github.com/krishnaSharma22iks/react-ecommerce-website-iks",
     },
     {
       title: "Todo App",
@@ -31,7 +31,7 @@ export default function Projects() {
   return (
     <section className="w-full py-20 bg-black">
       <div className="max-w-6xl mx-auto px-6 animate-fadeIn">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-center text-white mb-14">
+        <h2 className="edu-hand text-2xl sm:text-3xl font-semibold text-center text-white mb-14">
           Featured Projects
         </h2>
 

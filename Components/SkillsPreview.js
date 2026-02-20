@@ -14,7 +14,7 @@ export default function SkillsPreview() {
   return (
     <section className="w-full bg-black py-16">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-center text-white text-2xl sm:text-3xl font-semibold mb-10">
+        <h2 className="edu-hand text-center text-white text-2xl sm:text-3xl font-semibold mb-10">
           Skills
         </h2>
 

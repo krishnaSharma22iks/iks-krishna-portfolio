@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const menus = ["Home","About","Projects","Experience","Skills","Contact"]
+const menus = ["Home","About","Projects","Experience","Skills","Contact","CV"]
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -17,7 +17,7 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center space-x-8 text-sm font-medium">
-          {["Home","About","Projects","Experience","Skills","Contact"].map((item) => (
+          {["Home","About","Projects","Experience","Skills","Contact","CV"].map((item) => (
             <Link
               key={item}
               href={`/${item === "Home" ? "" : item.toLowerCase()}`}

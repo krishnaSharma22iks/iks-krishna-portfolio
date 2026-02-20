@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Edu_SA_Hand } from "next/font/google";
 import "./globals.css";
 import Navbar from "../../Components/Navbar";
+import Footer from "../../Components/Footer";
 const eduSaHand = Edu_SA_Hand({
   subsets: ["latin"],
   weight: ["400"],
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -17,9 +18,11 @@ export default function Hero() {
             </p>
 
             <div className="flex justify-center lg:justify-start gap-4 mb-10 animate-fadeIn">
+             <Link href="/projects">
               <button className="px-6 py-3 bg-white text-black rounded-md font-medium hover:bg-gray-200 transition">
                 View My Work
               </button>
+             </Link>
               <button className="px-6 py-3 border border-white rounded-md hover:bg-white hover:text-black transition">
                 Download CV
               </button>

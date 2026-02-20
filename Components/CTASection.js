@@ -1,8 +1,10 @@
+import Link from "next/link";
+  
 export default function CTASection() {
   return (
     <section className="w-full bg-black py-24">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-6">
+        <h2 className="edu-hand text-3xl sm:text-4xl font-semibold text-white mb-6">
           Let’s Build Something Great
         </h2>
 
@@ -12,12 +14,12 @@ export default function CTASection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="px-8 py-3 rounded-lg bg-white text-black font-medium hover:bg-gray-200 transition"
           >
             Contact Me
-          </a>
+          </Link>
 
           <a
             href="/resume.pdf"
