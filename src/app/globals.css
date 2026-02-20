@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Theme colors */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  background: #000;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Edu SA Hand */
+.edu-hand {
+  font-family: var(--font-edu);
+  /* font-optical-sizing: auto; */
+  font-size:larger;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease forwards;
+}
