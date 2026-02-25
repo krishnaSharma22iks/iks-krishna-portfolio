@@ -20,7 +20,7 @@ export default function About() {
           {/* Image */}
           <div className="flex justify-center opacity-0 animate-fadeIn delay-200">
             <img
-              src="/profile.jpg"
+              src="/images/p2.jpeg"
               alt="Krishna Sharma"
               className="w-72 h-72 object-cover rounded-xl border border-gray-700
                          transition duration-500 hover:scale-105 hover:shadow-2xl"

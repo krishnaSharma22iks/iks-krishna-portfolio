@@ -24,13 +24,15 @@ export default function Hero() {
               </button>
              </Link>
               <button className="px-6 py-3 border border-white rounded-md hover:bg-white hover:text-black transition">
+                <a href="/cv.pdf" download className="download-btn">
                 Download CV
+                </a>
               </button>
             </div>
 
             <div className="w-full max-w-sm mx-auto lg:mx-0 animate-fadeIn">
               <Image
-                src="/images/jrab5.webp"
+                src="/images/p2.jpeg"
                 alt="Krishna Sharma"
                 width={450}
                 height={300}

@@ -18,14 +18,6 @@ export default function Projects() {
       live: "https://react-ecommerce-website-iks.vercel.app/",
       github: "https://github.com/krishnaSharma22iks/react-ecommerce-website-iks",
     },
-    {
-      title: "Todo App",
-      description: "Task management app with React",
-      image: "/projects/todo.png",
-      tech: ["React", "CSS"],
-      live: "#",
-      github: "#",
-    },
   ];
 
   return (
@@ -35,7 +27,7 @@ export default function Projects() {
           Featured Projects
         </h2>
 
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-2 ">
           {projects.map((project, index) => (
             <div
               key={index}
