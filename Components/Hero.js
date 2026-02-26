@@ -43,9 +43,8 @@ export default function Hero() {
           </div>
 
           <div className="flex-1 flex items-center justify-center animate-fadeIn">
-            <h2 className="edu-hand text-xl sm:text-2xl lg:text-3xl text-center lg:text-left leading-relaxed max-w-lg text-gray-200">
-              I build modern, fast, and responsive web applications using
-              Next.js, React, and modern web technologies.
+            <h2 className="edu-hand text-xl sm:text-2xl lg:text-3xl text-center lg:text-left leading-relaxed max-w-l  g text-gray-200">
+              I am a frontend developer focused on building modern, fast, and responsive web applications using Next.js, React, and modern web technologies. I specialize in creating intuitive user interfaces, optimizing performance, and delivering scalable solutions that provide a smooth and engaging user experience across all devices.
             </h2>
           </div>
 

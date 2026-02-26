@@ -21,13 +21,13 @@ export default function CTASection() {
             Contact Me
           </Link>
 
-          <a
-            href="/resume.pdf"
-            target="_blank"
+          <Link
+            href="/cv"
+            
             className="px-8 py-3 rounded-lg border border-white text-white font-medium hover:bg-white hover:text-black transition"
           >
-            View Resume
-          </a>
+            CV
+          </Link>
         </div>
       </div>
     </section>
