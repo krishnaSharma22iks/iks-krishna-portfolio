@@ -8,6 +8,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { FaGraduationCap } from "react-icons/fa";
 import { IoIosLaptop } from "react-icons/io";
 
+
 export default function CV() {
   const { name, role, contact, objective, skills, experience, education, projects } = cvData;
 
